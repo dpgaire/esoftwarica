@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.esoftwarica160352"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:27:5-67
+11-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:27:22-64
+12
+13    <application
+13-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:5:5-25:19
+14        android:allowBackup="true"
+14-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /home/dp-hck/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:11:9-40
+23        <activity android:name="com.example.esoftwarica160352.Login" >
+23-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:12:9-19:20
+23-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:12:19-40
+24            <intent-filter>
+24-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:14:17-69
+25-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:16:17-77
+27-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:20:9-24:20
+31            android:name="com.example.esoftwarica160352.MainActivity"
+31-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:21:13-41
+32            android:label="@string/app_name" >
+32-->/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/src/main/AndroidManifest.xml:22:13-45
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dp-hck/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dp-hck/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+37            android:authorities="com.example.esoftwarica160352.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dp-hck/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dp-hck/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dp-hck/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+40    </application>
+41
+42</manifest>

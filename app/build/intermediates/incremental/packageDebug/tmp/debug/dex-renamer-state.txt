@@ -1,0 +1,4 @@
+#Fri Dec 13 12:33:39 NPT 2019
+base.0=/home/dp-hck/Downloads/esoftwarica160352-master-20191212T140442Z-001/esoftwarica160352-master/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
